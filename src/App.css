@@ -1,0 +1,22 @@
+.app-container{
+    padding: 20px;
+}
+.card{
+    width: 20%;
+    border-radius: 10px;
+}
+.divCard{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.listaAnos{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.listaAnos li{
+    margin-left: 20px;
+}
