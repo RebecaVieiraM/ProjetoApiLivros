@@ -4,11 +4,9 @@ import './App.css'
 
 function App() {
 
-  const [livros, setlivros] = useState([])
-  const [verMais, setVerMais] = useState(false)
-  const [anoSelecionado, setAnoSelecionado] = useState(null);
+  const [livros, setlivros] = useState([]);
   const [generoSelecionado, setGeneroSelecionado] = useState(null);
-  const [livroSelecionado, setlivroSelecionado] = useState(null);
+
 
   useEffect(() => {
     fetch('/api.json')
